@@ -1,3 +1,5 @@
 name = Drupal 7 Theme Boilerplate
 description = Basic drupal 7 theme example for copy-paste use
 core = 7.x
+
+stylesheets[screen][] = css/style.css
