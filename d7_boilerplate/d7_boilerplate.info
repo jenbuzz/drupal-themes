@@ -5,6 +5,17 @@ core = 7.x
 features[] = name
 features[] = main_menu
 
+; Default regions
+;regions[page_top] = Page Top
+;regions[header] = Header
+;regions[highlighted] = Highlighted
+;regions[help] = Help
+;regions[content] = Content
+;regions[sidebar_first] = Sidebar First
+;regions[sidebar_second] = Sidebar Second
+;regions[footer] = Footer
+;regions[page_bottom] = Page Bottom
+
 stylesheets[screen][] = css/style.css
 
 scripts[] = js/script.js
