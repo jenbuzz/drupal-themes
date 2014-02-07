@@ -1,5 +1,12 @@
 <?php
 
+function d7_boilerplate_html_head_alter(&$head_elements)
+{
+    $head_elements['system_meta_content_type']['#attributes'] = array(
+        'charset' => 'utf-8'
+    );
+}
+
 function d7_boilerplate_preprocess_html(&$variables)
 {
     $meta_viewport = array(

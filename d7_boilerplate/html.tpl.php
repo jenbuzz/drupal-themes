@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
     <?php print $head; ?>
     <title><?php print $head_title; ?></title>
     <?php print $styles; ?>
