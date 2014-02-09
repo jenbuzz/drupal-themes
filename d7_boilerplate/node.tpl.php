@@ -1,14 +1,14 @@
-<div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php echo $attributes; ?>>
+<div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
   <?php if (!$page): ?>
-    <h2<?php echo $title_attributes; ?>><a href="<?php echo $node_url; ?>"><?php echo $title; ?></a></h2>
+    <h2<?php print $title_attributes; ?>><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h2>
   <?php endif; ?>
 
-  <div class="content"<?php echo $content_attributes; ?>>
+  <div class="content"<?php print $content_attributes; ?>>
     <?php 
       hide($content['comments']);
       hide($content['links']);
       hide($content['field_tags']);
-      echo render($content);
+      print render($content);
     ?>
   </div>
 
