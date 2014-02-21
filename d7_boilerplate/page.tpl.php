@@ -66,19 +66,19 @@
         </div>
 
         <?php if ($page['sidebar_first']): ?>
-        <div id="sidebar-first" class="column sidebar">
+        <aside id="sidebar-first" class="column sidebar">
           <div class="section">
             <?php print render($page['sidebar_first']); ?>
           </div>
-        </div>
+        </aside>
         <?php endif; ?>
 
         <?php if ($page['sidebar_second']): ?>
-        <div id="sidebar-second" class="column sidebar">
+        <aside id="sidebar-second" class="column sidebar">
           <div class="section">
             <?php print render($page['sidebar_second']); ?>
           </div>
-        </div>
+        </aside>
         <?php endif; ?>
 
       </div>
