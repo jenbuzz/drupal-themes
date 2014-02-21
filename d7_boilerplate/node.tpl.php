@@ -1,9 +1,15 @@
 <article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
-  <?php if (!$page): ?>
-    <header>
-      <h1<?php print $title_attributes; ?>><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h1>
-    </header>
-  <?php endif; ?>
+  <header>
+    <h1<?php print $title_attributes; ?>>
+      <?php if (!$page): ?>
+      <a href="<?php print $node_url; ?>">
+      <?php endif; ?>
+        <?php print $title; ?>
+      <?php if (!$page): ?>
+      </a>
+      <?php endif; ?>
+    </h1>
+  </header>
 
   <div class="content"<?php print $content_attributes; ?>>
     <?php 
@@ -13,5 +19,4 @@
       print render($content);
     ?>
   </div>
-
 </article>
