@@ -1,4 +1,4 @@
-<article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
+<article class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
   <header>
     <h1<?php print $title_attributes; ?>>
       <?php if (!$page): ?>
