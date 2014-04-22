@@ -1,5 +1,6 @@
 name = Drupal 7 Theme Boilerplate
 description = Basic drupal 7 theme example for copy-paste use
+screenshot = screenshot.png
 core = 7.x
 
 features[] = name
