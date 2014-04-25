@@ -32,9 +32,14 @@ $zen-auto-include-item-base: false;
  */
 #page,
 .region-bottom {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1200px;
+  /*margin-left: auto;*/
+  /*margin-right: auto;*/
+  /*max-width: 1200px;*/
+}
+
+/* content h2 */
+#content h2 {
+  margin-top: 0 !important;
 }
 
 /* Apply the shared properties of grid items in a single, efficient ruleset. */
@@ -165,6 +170,8 @@ $zen-auto-include-item-base: false;
     /* Span 4 columns, starting in 2nd column from left. */
     #content {
       @include zen-grid-item(4, 1);
+      width: 100% !important;
+      padding: 0px !important;
     }
 
     /* Span 1 column, starting in 1st column from left. */
