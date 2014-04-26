@@ -24,6 +24,11 @@ $zen-auto-include-item-base: false;
 // Suppress this section of CSS for RTL layouts since it contains no LTR-specific styles.
 @if $zen-reverse-all-floats == false {
 
+html,
+body {
+  height: 100%;
+}
+
 /**
  * Center the page.
  *
@@ -35,6 +40,12 @@ $zen-auto-include-item-base: false;
   /*margin-left: auto;*/
   /*margin-right: auto;*/
   /*max-width: 1200px;*/
+}
+
+#page,
+#main,
+#content {
+  height: 100%;
 }
 
 /* content h2 */
@@ -65,7 +76,6 @@ $zen-auto-include-item-base: false;
 @media all and (min-width: 480px) {
   #main {
     /* Move all the children of #main down to make room. */
-    padding-top: $nav-height;
     position: relative;
   }
   #navigation {
