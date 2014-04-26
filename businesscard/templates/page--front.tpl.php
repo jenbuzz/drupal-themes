@@ -7,10 +7,10 @@
   <div id="main">
 
     <div id="content" class="column" role="main">
-      <div style="width: 50%; margin: 0 auto; border: 1px solid #000000; height: 300px; margin-bottom: 20px;">
+      <div style="width: 50%; margin: 0 auto; border: 1px solid #000000; height: 300px; margin-bottom: 20px; background: #eeeeee;">
         <h1 style="text-align: center">John Doe</h1>
 
-        <div style="width: 100%; height: 204px; background: #eeeeee; text-align: center">
+        <div style="width: 100%; text-align: center">
           <ul style="list-style: none; padding: 0;">
             <li><a href="#about">about</a></li>
             <li><a href="#work">work profile</a></li>

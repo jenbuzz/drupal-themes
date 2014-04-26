@@ -51,6 +51,7 @@ $zen-auto-include-item-base: false;
 #footer {
   // See the note about $zen-auto-include-item-base above.
   @include zen-grid-item-base();
+  padding: 0px !important;
 }
 
 /* Containers for grid items and flow items. */
@@ -92,6 +93,8 @@ $zen-auto-include-item-base: false;
     /* Span 2 columns, starting in 1st column from left. */
     #content {
       @include zen-grid-item(2, 1);
+      width: 100% !important;
+      padding: 0px !important;
     }
 
     /* Span 1 column, starting in 1st column from left. */
