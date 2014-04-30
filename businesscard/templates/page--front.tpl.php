@@ -3,17 +3,43 @@
   <div id="main">
 
     <div id="content" class="column" role="main">
-      <div style="width: 100%; height: 100%;">
-        <div style="width: 50%; margin: 0 auto; border: 1px solid #000000; height: 300px; margin-bottom: 20px; background: #eeeeee; margin-top: 20px;">
-          <h1 style="text-align: center">John Doe</h1>
+      <div style="width: 100%; height: 100%; background-color: #F2F2F2; padding-top: 20px;">
+        <div style="width: 50%; margin: 0 auto; border: 1px solid #000000; height: 300px; margin-bottom: 20px; background: #F2F2F2; box-shadow: 5px 5px rgba(0, 0, 0, 0.2);">
+          <h1 style="text-align: center; color: #555555;">Hi, I'm John Doe</h1>
 
-          <div style="width: 100%; text-align: center">
-            <ul style="list-style: none; padding: 0;">
-              <li><a href="#about">about</a></li>
-              <li><a href="#work">work profile</a></li>
-              <li><a href="#portfolio">portfolio</a></li>
-              <li><a href="#contact">contact</a></li>
+          <style>
+          .businesscard-menu ul li {
+            height: 40px;
+            background: #F2F2F2;
+            cursor: pointer;
+            padding-left: 10px;
+            border-bottom: 1px solid #DDDDDD;
+            margin-right: 20px;
+          }
+          .businesscard-menu ul li:hover {
+            background: #EEEEEE;
+          }
+          .businesscard-menu ul li a {
+            color: #555555;
+            text-decoration: none;
+          }
+          .businesscard-menu ul li:hover a {
+            color: #222222;
+          }
+          </style>
+
+          <div class="businesscard-menu" style="width: 20%; text-align: left; float: left">
+            <ul style="list-style: none; padding: 0; margin: 0;">
+              <li onclick="document.location.href='#about'"><a href="#about">about</a></li>
+              <li onclick="document.location.href='#work'"><a href="#work">work profile</a></li>
+              <li onclick="document.location.href='#portfolio'"><a href="#portfolio">portfolio</a></li>
+              <li onclick="document.location.href='#contact'"><a href="#contact">contact</a></li>
             </ul>
+          </div>
+          <div style="float: left; width: 75%; color: #555555;">
+            Hire me!
+            <br />
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
           </div>
         </div>
       </div>
