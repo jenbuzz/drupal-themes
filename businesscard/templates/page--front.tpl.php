@@ -3,8 +3,8 @@
   <div id="main">
 
     <div id="content" class="column" role="main">
-      <div style="width: 100%; height: 100%; background-color: #F2F2F2; padding-top: 20px;">
-        <div style="width: 50%; margin: 0 auto; border: 1px solid #000000; height: 300px; margin-bottom: 20px; background: #F2F2F2; box-shadow: 5px 5px rgba(0, 0, 0, 0.2);">
+      <div style="width: 100%; height: 100%; background-color: #F2F2F2;">
+        <div style="position:absolute; top: 50%; left: 50%; margin-left: -25%; margin-top: -150px; width: 50%; border: 1px solid #000000; height: 300px; margin-bottom: 20px; background: #F2F2F2; box-shadow: 5px 5px rgba(0, 0, 0, 0.2); overflow: hidden;">
           <h1 style="text-align: center; color: #555555;">Hi, I'm John Doe</h1>
 
           <style>
@@ -28,7 +28,7 @@
           }
           </style>
 
-          <div class="businesscard-menu" style="width: 20%; text-align: left; float: left">
+          <div class="businesscard-menu" style="width: 20%; min-width:150px; height: 100%; text-align: left; float: left">
             <ul style="list-style: none; padding: 0; margin: 0;">
               <li onclick="document.location.href='#about'"><a href="#about">about</a></li>
               <li onclick="document.location.href='#work'"><a href="#work">work profile</a></li>
@@ -36,7 +36,7 @@
               <li onclick="document.location.href='#contact'"><a href="#contact">contact</a></li>
             </ul>
           </div>
-          <div style="float: left; width: 75%; color: #555555;">
+          <div style="float: left; width: 70%; color: #555555;">
             Hire me!
             <br />
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
