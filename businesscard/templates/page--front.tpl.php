@@ -73,7 +73,7 @@
         </div>
       </div>
 
-      <div id="articles">
+      <div id="articles" style="padding-top: 20px;">
         <?php print render($page['content']); ?>
       </div>
     </div>
