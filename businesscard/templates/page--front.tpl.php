@@ -34,6 +34,7 @@
               <li onclick="document.location.href='#work'"><a href="#work">work profile</a></li>
               <li onclick="document.location.href='#portfolio'"><a href="#portfolio">portfolio</a></li>
               <li onclick="document.location.href='#contact'"><a href="#contact">contact</a></li>
+              <li onclick="document.location.href='#articles'"><a href="#articles">articles</a></li>
             </ul>
           </div>
           <div style="float: left; width: 70%; color: #555555;">
@@ -72,7 +73,9 @@
         </div>
       </div>
 
-      <?php print render($page['content']); ?>
+      <div id="articles">
+        <?php print render($page['content']); ?>
+      </div>
     </div>
 
   </div>
