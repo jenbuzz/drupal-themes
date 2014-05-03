@@ -3,8 +3,8 @@
   <div id="main">
 
     <div id="content" class="column" role="main">
-      <div style="width: 100%; height: 100%; background: url('sites/all/themes/businesscard/images/profile.png') no-repeat center top #F2F2F2; background-size: 250px 250px">
-        <div style="position:absolute; top: 50%; left: 50%; margin-left: -25%; margin-top: -150px; width: 50%; border: 1px solid #000000; height: 300px; margin-bottom: 20px; background: #F2F2F2; box-shadow: 5px 5px rgba(0, 0, 0, 0.2); overflow: hidden;">
+      <div style="width: 100%; height: 100%; background: url('sites/all/themes/businesscard/images/profile.png') no-repeat center top #F2F2F2; background-size: 13%">
+        <div style="position:absolute; top: 40%; left: 50%; margin-left: -25%; margin-top: -150px; width: 50%; border: 1px solid #000000; height: 300px; margin-bottom: 20px; background: #F2F2F2; box-shadow: 5px 5px rgba(0, 0, 0, 0.2); overflow: hidden;">
           <h1 style="text-align: center; color: #555555;">Hi, I'm John Doe</h1>
 
           <style>
