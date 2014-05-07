@@ -1,14 +1,4 @@
-<style>
-  article h2 a {
-    color: #222222;
-    text-decoration: none;
-  }
-  article h2 a:hover {
-    text-decoration: underline;
-  }
-</style>
-
-<article class="node-<?php print $node->nid; ?> <?php print $classes; ?> clearfix"<?php print $attributes; ?> style="width: 50%; margin: 0 auto;">
+<article class="node-<?php print $node->nid; ?> <?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 
   <?php if ($title_prefix || $title_suffix || $display_submitted || $unpublished || !$page && $title): ?>
     <header>
