@@ -9,11 +9,11 @@
 
           <div class="businesscard-menu">
             <ul>
-              <li onclick="document.location.href='#about'"><a href="#about">about</a></li>
-              <li onclick="document.location.href='#work'"><a href="#work">work profile</a></li>
-              <li onclick="document.location.href='#portfolio'"><a href="#portfolio">portfolio</a></li>
-              <li onclick="document.location.href='#contact'"><a href="#contact">contact</a></li>
-              <li onclick="document.location.href='#articles'"><a href="#articles">articles</a></li>
+              <li onclick="document.location.href='#about'"><a class="button glow" href="#about">about</a></li>
+              <li onclick="document.location.href='#work'"><a class="button glow" href="#work">work profile</a></li>
+              <li onclick="document.location.href='#portfolio'"><a class="button glow" href="#portfolio">portfolio</a></li>
+              <li onclick="document.location.href='#contact'"><a class="button glow" href="#contact">contact</a></li>
+              <li onclick="document.location.href='#articles'"><a class="button glow" href="#articles">articles</a></li>
             </ul>
           </div>
           <div class="businesscard-intro">

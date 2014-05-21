@@ -8,6 +8,7 @@ stylesheets[all][] = system.menus.css
 stylesheets[all][] = system.messages.css
 stylesheets[all][] = system.theme.css
 stylesheets[all][] = css/styles.css
+stylesheets[all][] = css/hover-min.css
 
 regions[page_top]       = Page top
 regions[header]         = Header
