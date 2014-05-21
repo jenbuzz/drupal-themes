@@ -106,13 +106,18 @@ body {
 
 .businesscard-content h1 {
   text-align: center;
-  color: #555555;
+  color: #FFFFFF;
+  background: #001F3F;
+  margin: 0;
+  padding: 0;
+  line-height: 2.5em;
 }
 
 .businesscard-intro {
   float: left;
   width: 70%;
   color: #555555;
+  margin-top: 10px;
 }
 
 .businesscard-menu {
@@ -121,6 +126,7 @@ body {
   height: 100%;
   text-align: left;
   float: left;
+  margin-top: 5px;
 }
 
 .businesscard-menu ul {
