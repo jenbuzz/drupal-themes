@@ -171,9 +171,23 @@ body {
   padding-top: 20px;
 }
 
+#articles .button {
+  margin: 0 auto;
+}
+
+#articles .curl-top-left {
+  display: block;
+}
+
 article {
   width: 50%;
   margin: 0 auto;
+  background-color: #F2F2F2 !important;
+  border: 8px solid #F2F2F2;
+}
+
+article:hover {
+  border: 8px solid #FFFFFF;
 }
 
 article h2 a {
