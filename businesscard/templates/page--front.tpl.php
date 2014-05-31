@@ -5,8 +5,7 @@
     <div id="content" class="column" role="main">
       <div class="businesscard">
         <div class="businesscard-content">
-          <h1>Hi, I'm John Doe</h1>
-
+          <h1 id="businesscard-title">Hi, I'm John Doe</h1>
           <div class="businesscard-menu">
             <ul>
               <li onclick="document.location.href='#about'"><a class="button glow" href="#about">about</a></li>

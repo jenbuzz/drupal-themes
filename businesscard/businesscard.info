@@ -10,6 +10,9 @@ stylesheets[all][] = system.theme.css
 stylesheets[all][] = css/styles.css
 stylesheets[all][] = css/hover-min.css
 
+scripts[] = js/shine.min.js
+scripts[] = js/script.js
+
 regions[page_top]       = Page top
 regions[header]         = Header
 regions[navigation]     = Navigation bar
