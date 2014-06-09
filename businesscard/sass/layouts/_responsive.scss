@@ -202,6 +202,22 @@ article h2 a:hover {
   text-decoration: underline;
 }
 
+/* PORTFOLIO */
+#portfolio ul {
+  list-style: none;
+  width: 70%;
+  margin: auto;
+}
+#portfolio ul li {
+  float: left;
+  border: 20px solid #FFFFFF;
+  background-color: #001F3F;
+  margin: 10px;
+}
+#portfolio ul li:hover {
+  border-color: #F2F2F2;
+}
+
 /* Navigation bar */
 @media all and (min-width: 480px) {
   #main {
