@@ -180,16 +180,16 @@ body {
 }
 
 article {
-  width: 50%;
   margin: 0 auto;
   background-color: #F2F2F2 !important;
 }
 
-.article-border {
+.article-front {
+  width: 50%;
   border: 8px solid #F2F2F2;
 }
 
-.article-border:hover {
+.article-front:hover {
   border: 8px solid #FFFFFF;
 }
 

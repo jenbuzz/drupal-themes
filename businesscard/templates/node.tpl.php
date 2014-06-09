@@ -1,4 +1,4 @@
-<article class="node-<?php print $node->nid; ?> <?php print $classes; ?> clearfix<?php if ($is_front) { echo ' article-border button curl-top-left'; } ?>"<?php print $attributes; ?>>
+<article class="node-<?php print $node->nid; ?> <?php print $classes; ?> clearfix<?php if ($is_front) { echo ' article-front button curl-top-left'; } ?>"<?php print $attributes; ?>>
 
   <?php if ($title_prefix || $title_suffix || $display_submitted || $unpublished || !$page && $title): ?>
     <header>

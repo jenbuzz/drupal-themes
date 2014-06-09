@@ -777,18 +777,18 @@ body {
 
 /* line 182, ../sass/layouts/_responsive.scss */
 article {
-  width: 50%;
   margin: 0 auto;
   background-color: #F2F2F2 !important;
 }
 
-/* line 188, ../sass/layouts/_responsive.scss */
-.article-border {
+/* line 187, ../sass/layouts/_responsive.scss */
+.article-front {
+  width: 50%;
   border: 8px solid #F2F2F2;
 }
 
 /* line 192, ../sass/layouts/_responsive.scss */
-.article-border:hover {
+.article-front:hover {
   border: 8px solid #FFFFFF;
 }
 
