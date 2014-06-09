@@ -183,10 +183,13 @@ article {
   width: 50%;
   margin: 0 auto;
   background-color: #F2F2F2 !important;
+}
+
+.article-border {
   border: 8px solid #F2F2F2;
 }
 
-article:hover {
+.article-border:hover {
   border: 8px solid #FFFFFF;
 }
 
