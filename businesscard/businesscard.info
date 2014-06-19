@@ -9,6 +9,7 @@ stylesheets[all][] = system.messages.css
 stylesheets[all][] = system.theme.css
 stylesheets[all][] = css/styles.css
 stylesheets[all][] = css/hover-min.css
+stylesheets[all][] = css/font-awesome.min.css
 
 scripts[] = js/shine.min.js
 scripts[] = js/script.js
