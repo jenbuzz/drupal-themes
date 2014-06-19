@@ -606,11 +606,11 @@ body {
 
 /* content h2 */
 /* line 47, ../sass/layouts/_responsive.scss */
-#content h2 {
+.contentbox h2 {
   margin-top: 0 !important;
 }
 /* line 50, ../sass/layouts/_responsive.scss */
-#content h2 a {
+.contentbox h2 a {
   color: #FFFFFF;
 }
 
