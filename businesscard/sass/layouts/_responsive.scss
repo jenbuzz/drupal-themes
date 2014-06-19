@@ -46,6 +46,10 @@ body {
 /* content h2 */
 #content h2 {
   margin-top: 0 !important;
+
+  a {
+    color: #FFFFFF;
+  }
 }
 
 /* Apply the shared properties of grid items in a single, efficient ruleset. */
