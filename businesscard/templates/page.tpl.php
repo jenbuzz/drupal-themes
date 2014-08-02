@@ -42,6 +42,25 @@
 
   <div id="main">
 
+    <div id="navigation">
+
+      <?php if ($main_menu): ?>
+        <nav id="main-menu" role="navigation" tabindex="-1">
+          <?php
+          print theme('links__system_main_menu', array(
+            'links' => $main_menu,
+            'attributes' => array(
+              'class' => array('links', 'inline', 'clearfix'),
+            ),
+            'heading' => false,
+          )); ?>
+        </nav>
+      <?php endif; ?>
+
+      <?php print render($page['navigation']); ?>
+
+    </div>
+
     <div id="content" class="column" role="main" style="width: inherit !important; margin-right: 0">
       <?php print render($page['highlighted']); ?>
       <?php print $breadcrumb; ?>
@@ -54,29 +73,6 @@
       <?php endif; ?>
       <?php print render($page['content']); ?>
       <?php print $feed_icons; ?>
-    </div>
-
-    <div id="navigation">
-
-      <?php if ($main_menu): ?>
-        <nav id="main-menu" role="navigation" tabindex="-1">
-          <?php
-          print theme('links__system_main_menu', array(
-            'links' => $main_menu,
-            'attributes' => array(
-              'class' => array('links', 'inline', 'clearfix'),
-            ),
-            'heading' => array(
-              'text' => t('Main menu'),
-              'level' => 'h2',
-              'class' => array('element-invisible'),
-            ),
-          )); ?>
-        </nav>
-      <?php endif; ?>
-
-      <?php print render($page['navigation']); ?>
-
     </div>
 
     <?php

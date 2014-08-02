@@ -230,10 +230,8 @@ article h2 a:hover {
   }
   #navigation {
     /* Move the navbar up inside #main's padding. */
-    position: absolute;
-    top: 0;
-    height: $nav-height;
     width: $zen-grid-width;
+    background: #e1e1e1;
   }
 }
 
