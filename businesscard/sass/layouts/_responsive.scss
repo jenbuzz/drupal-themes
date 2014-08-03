@@ -232,6 +232,10 @@ article h2 a:hover {
     /* Move the navbar up inside #main's padding. */
     width: $zen-grid-width;
     background: #e1e1e1;
+
+    .button {
+      padding: 5px;
+    }
   }
 }
 
