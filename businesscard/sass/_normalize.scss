@@ -321,7 +321,7 @@ dd {
 menu,
 ol,
 ul {
-  padding: 0 0 0 $indent-amount; /* LTR */
+  padding: 0; /* LTR */
 }
 
 @if $legacy-support-for-ie7 {
