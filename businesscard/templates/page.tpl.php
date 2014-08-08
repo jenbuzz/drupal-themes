@@ -61,7 +61,7 @@
 
     </div>
 
-    <div id="content" class="column" role="main" style="width: inherit !important; margin-right: 0">
+    <div id="content" class="column" role="main" style="width: inherit !important; margin-right: 300px;">
       <?php print render($page['highlighted']); ?>
       <?php print $breadcrumb; ?>
       <a id="main-content"></a>

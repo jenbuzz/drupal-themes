@@ -64,6 +64,14 @@ body {
   padding: 0px !important;
 }
 
+.sidebar-first {
+  .region-sidebar-first {
+    margin-left: -25% !important;
+    margin-right: 0px !important;
+    width: 25% !important;
+  }
+}
+
 /* Containers for grid items and flow items. */
 #header,
 #main,

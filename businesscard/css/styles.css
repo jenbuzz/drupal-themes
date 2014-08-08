@@ -632,6 +632,13 @@ body {
   padding: 0px !important;
 }
 
+/* line 68, ../sass/layouts/_responsive.scss */
+.sidebar-first .region-sidebar-first {
+  margin-left: -25% !important;
+  margin-right: 0px !important;
+  width: 25% !important;
+}
+
 /* Containers for grid items and flow items. */
 /* line 46, ../sass-extensions/zen-grids/stylesheets/zen/_grids.scss */
 #header:before, #header:after,
@@ -649,18 +656,18 @@ body {
   clear: both;
 }
 
-/* line 74, ../sass/layouts/_responsive.scss */
+/* line 82, ../sass/layouts/_responsive.scss */
 .form-login-input {
   padding: 5px;
 }
 
-/* line 78, ../sass/layouts/_responsive.scss */
+/* line 86, ../sass/layouts/_responsive.scss */
 .form-login-submit {
   width: 100%;
   padding: 5px;
 }
 
-/* line 83, ../sass/layouts/_responsive.scss */
+/* line 91, ../sass/layouts/_responsive.scss */
 .businesscard {
   width: 100%;
   height: 100%;
@@ -668,14 +675,14 @@ body {
   background-size: 13%;
 }
 
-/* line 90, ../sass/layouts/_responsive.scss */
+/* line 98, ../sass/layouts/_responsive.scss */
 .businesscard .button {
   background-color: #F2F2F2;
   width: 80%;
   padding: 2px 0 2px 10px;
 }
 
-/* line 96, ../sass/layouts/_responsive.scss */
+/* line 104, ../sass/layouts/_responsive.scss */
 .businesscard-content {
   position: absolute;
   top: 40%;
@@ -691,7 +698,7 @@ body {
   overflow: hidden;
 }
 
-/* line 111, ../sass/layouts/_responsive.scss */
+/* line 119, ../sass/layouts/_responsive.scss */
 .businesscard-content h1 {
   text-align: center;
   color: #FFFFFF;
@@ -701,7 +708,7 @@ body {
   line-height: 2.5em;
 }
 
-/* line 120, ../sass/layouts/_responsive.scss */
+/* line 128, ../sass/layouts/_responsive.scss */
 .businesscard-intro {
   float: left;
   width: 70%;
@@ -709,7 +716,7 @@ body {
   margin-top: 10px;
 }
 
-/* line 127, ../sass/layouts/_responsive.scss */
+/* line 135, ../sass/layouts/_responsive.scss */
 .businesscard-menu {
   width: 20%;
   min-width: 150px;
@@ -719,14 +726,14 @@ body {
   margin-top: 5px;
 }
 
-/* line 136, ../sass/layouts/_responsive.scss */
+/* line 144, ../sass/layouts/_responsive.scss */
 .businesscard-menu ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-/* line 142, ../sass/layouts/_responsive.scss */
+/* line 150, ../sass/layouts/_responsive.scss */
 .businesscard-menu ul li {
   background: #F2F2F2;
   cursor: pointer;
@@ -734,29 +741,29 @@ body {
   margin-right: 20px;
 }
 
-/* line 149, ../sass/layouts/_responsive.scss */
+/* line 157, ../sass/layouts/_responsive.scss */
 .businesscard-menu ul li:hover {
   background: #EEEEEE;
 }
 
-/* line 153, ../sass/layouts/_responsive.scss */
+/* line 161, ../sass/layouts/_responsive.scss */
 .businesscard-menu ul li a {
   color: #555555;
   text-decoration: none;
 }
 
-/* line 158, ../sass/layouts/_responsive.scss */
+/* line 166, ../sass/layouts/_responsive.scss */
 .businesscard-menu ul li:hover a {
   color: #222222;
 }
 
-/* line 162, ../sass/layouts/_responsive.scss */
+/* line 170, ../sass/layouts/_responsive.scss */
 .contentbox {
   width: 100%;
   height: 100%;
 }
 
-/* line 167, ../sass/layouts/_responsive.scss */
+/* line 175, ../sass/layouts/_responsive.scss */
 .contentbox div {
   width: 50%;
   margin: 0 auto;
@@ -764,58 +771,58 @@ body {
   padding-bottom: 5px;
 }
 
-/* line 174, ../sass/layouts/_responsive.scss */
+/* line 182, ../sass/layouts/_responsive.scss */
 .articles-container {
   padding-top: 20px;
 }
 
-/* line 178, ../sass/layouts/_responsive.scss */
+/* line 186, ../sass/layouts/_responsive.scss */
 #articles .button {
   margin: 0 auto;
 }
 
-/* line 182, ../sass/layouts/_responsive.scss */
+/* line 190, ../sass/layouts/_responsive.scss */
 #articles .curl-top-left {
   display: block;
 }
 
-/* line 186, ../sass/layouts/_responsive.scss */
+/* line 194, ../sass/layouts/_responsive.scss */
 article {
   margin: 0 auto;
   background-color: #F2F2F2 !important;
 }
 
-/* line 191, ../sass/layouts/_responsive.scss */
+/* line 199, ../sass/layouts/_responsive.scss */
 .article-front {
   width: 50%;
   border: 8px solid #F2F2F2;
 }
 
-/* line 196, ../sass/layouts/_responsive.scss */
+/* line 204, ../sass/layouts/_responsive.scss */
 .article-front:hover {
   border: 8px solid #FFFFFF;
 }
 
-/* line 200, ../sass/layouts/_responsive.scss */
+/* line 208, ../sass/layouts/_responsive.scss */
 article h2 a {
   color: #222222;
   text-decoration: none;
 }
 
-/* line 205, ../sass/layouts/_responsive.scss */
+/* line 213, ../sass/layouts/_responsive.scss */
 article h2 a:hover {
   text-decoration: underline;
 }
 
 /* PORTFOLIO */
-/* line 210, ../sass/layouts/_responsive.scss */
+/* line 218, ../sass/layouts/_responsive.scss */
 #portfolio ul {
   list-style: none;
   width: 70%;
   margin: auto;
 }
 
-/* line 215, ../sass/layouts/_responsive.scss */
+/* line 223, ../sass/layouts/_responsive.scss */
 #portfolio ul li {
   float: left;
   border: 20px solid #FFFFFF;
@@ -823,26 +830,26 @@ article h2 a:hover {
   margin: 10px;
 }
 
-/* line 221, ../sass/layouts/_responsive.scss */
+/* line 229, ../sass/layouts/_responsive.scss */
 #portfolio ul li:hover {
   border-color: #F2F2F2;
 }
 
 /* Navigation bar */
 @media all and (min-width: 480px) {
-  /* line 227, ../sass/layouts/_responsive.scss */
+  /* line 235, ../sass/layouts/_responsive.scss */
   #main {
     /* Move all the children of #main down to make room. */
     position: relative;
   }
 
-  /* line 231, ../sass/layouts/_responsive.scss */
+  /* line 239, ../sass/layouts/_responsive.scss */
   #navigation {
     /* Move the navbar up inside #main's padding. */
     width: 100%;
     background: #e1e1e1;
   }
-  /* line 236, ../sass/layouts/_responsive.scss */
+  /* line 244, ../sass/layouts/_responsive.scss */
   #navigation .button {
     padding: 5px;
   }
@@ -854,12 +861,12 @@ article h2 a:hover {
   /**
    * The layout when there is only one sidebar, the left one.
    */
-  /* line 254, ../sass/layouts/_responsive.scss */
+  /* line 262, ../sass/layouts/_responsive.scss */
   .sidebar-first {
     /* Span 2 columns, starting in 1st column from left. */
     /* Span 1 column, starting in 1st column from left. */
   }
-  /* line 256, ../sass/layouts/_responsive.scss */
+  /* line 264, ../sass/layouts/_responsive.scss */
   .sidebar-first #content {
     float: left;
     width: 66.66667%;
@@ -868,7 +875,7 @@ article h2 a:hover {
     width: 100% !important;
     padding: 0px !important;
   }
-  /* line 263, ../sass/layouts/_responsive.scss */
+  /* line 271, ../sass/layouts/_responsive.scss */
   .sidebar-first .region-sidebar-first {
     float: left;
     width: 33.33333%;
@@ -879,19 +886,19 @@ article h2 a:hover {
   /**
    * The layout when there is only one sidebar, the right one.
    */
-  /* line 271, ../sass/layouts/_responsive.scss */
+  /* line 279, ../sass/layouts/_responsive.scss */
   .sidebar-second {
     /* Span 2 columns, starting in 1st column from left. */
     /* Span 1 column, starting in 3rd column from left. */
   }
-  /* line 273, ../sass/layouts/_responsive.scss */
+  /* line 281, ../sass/layouts/_responsive.scss */
   .sidebar-second #content {
     float: left;
     width: 66.66667%;
     margin-left: 0%;
     margin-right: -66.66667%;
   }
-  /* line 278, ../sass/layouts/_responsive.scss */
+  /* line 286, ../sass/layouts/_responsive.scss */
   .sidebar-second .region-sidebar-second {
     float: left;
     width: 33.33333%;
@@ -902,27 +909,27 @@ article h2 a:hover {
   /**
    * The layout when there are two sidebars.
    */
-  /* line 286, ../sass/layouts/_responsive.scss */
+  /* line 294, ../sass/layouts/_responsive.scss */
   .two-sidebars {
     /* Span 2 columns, starting in 2nd column from left. */
     /* Span 1 column, starting in 1st column from left. */
     /* Start a new row and span all 3 columns. */
   }
-  /* line 288, ../sass/layouts/_responsive.scss */
+  /* line 296, ../sass/layouts/_responsive.scss */
   .two-sidebars #content {
     float: left;
     width: 66.66667%;
     margin-left: 33.33333%;
     margin-right: -100%;
   }
-  /* line 293, ../sass/layouts/_responsive.scss */
+  /* line 301, ../sass/layouts/_responsive.scss */
   .two-sidebars .region-sidebar-first {
     float: left;
     width: 33.33333%;
     margin-left: 0%;
     margin-right: -33.33333%;
   }
-  /* line 298, ../sass/layouts/_responsive.scss */
+  /* line 306, ../sass/layouts/_responsive.scss */
   .two-sidebars .region-sidebar-second {
     float: left;
     width: 100%;
@@ -936,7 +943,7 @@ article h2 a:hover {
     /* Span 1 column, starting in the 2nd column from left. */
     /* Span 1 column, starting in the 3rd column from left. */
   }
-  /* line 304, ../sass/layouts/_responsive.scss */
+  /* line 312, ../sass/layouts/_responsive.scss */
   .two-sidebars .region-sidebar-second .block {
     padding-left: 10px;
     padding-right: 10px;
@@ -946,7 +953,7 @@ article h2 a:hover {
     box-sizing: border-box;
     word-wrap: break-word;
   }
-  /* line 308, ../sass/layouts/_responsive.scss */
+  /* line 316, ../sass/layouts/_responsive.scss */
   .two-sidebars .region-sidebar-second .block:nth-child(3n+1) {
     float: left;
     width: 33.33333%;
@@ -954,14 +961,14 @@ article h2 a:hover {
     margin-right: -33.33333%;
     clear: left;
   }
-  /* line 313, ../sass/layouts/_responsive.scss */
+  /* line 321, ../sass/layouts/_responsive.scss */
   .two-sidebars .region-sidebar-second .block:nth-child(3n+2) {
     float: left;
     width: 33.33333%;
     margin-left: 33.33333%;
     margin-right: -66.66667%;
   }
-  /* line 317, ../sass/layouts/_responsive.scss */
+  /* line 325, ../sass/layouts/_responsive.scss */
   .two-sidebars .region-sidebar-second .block:nth-child(3n) {
     float: left;
     width: 33.33333%;
@@ -976,12 +983,12 @@ article h2 a:hover {
   /**
    * The layout when there is only one sidebar, the left one.
    */
-  /* line 334, ../sass/layouts/_responsive.scss */
+  /* line 342, ../sass/layouts/_responsive.scss */
   .sidebar-first {
     /* Span 4 columns, starting in 2nd column from left. */
     /* Span 1 column, starting in 1st column from left. */
   }
-  /* line 336, ../sass/layouts/_responsive.scss */
+  /* line 344, ../sass/layouts/_responsive.scss */
   .sidebar-first #content {
     float: left;
     width: 80%;
@@ -990,7 +997,7 @@ article h2 a:hover {
     width: 100% !important;
     padding: 0px !important;
   }
-  /* line 343, ../sass/layouts/_responsive.scss */
+  /* line 351, ../sass/layouts/_responsive.scss */
   .sidebar-first .region-sidebar-first {
     float: left;
     width: 20%;
@@ -1001,19 +1008,19 @@ article h2 a:hover {
   /**
    * The layout when there is only one sidebar, the right one.
    */
-  /* line 351, ../sass/layouts/_responsive.scss */
+  /* line 359, ../sass/layouts/_responsive.scss */
   .sidebar-second {
     /* Span 4 columns, starting in 1st column from left. */
     /* Span 1 column, starting in 5th column from left. */
   }
-  /* line 353, ../sass/layouts/_responsive.scss */
+  /* line 361, ../sass/layouts/_responsive.scss */
   .sidebar-second #content {
     float: left;
     width: 80%;
     margin-left: 0%;
     margin-right: -80%;
   }
-  /* line 358, ../sass/layouts/_responsive.scss */
+  /* line 366, ../sass/layouts/_responsive.scss */
   .sidebar-second .region-sidebar-second {
     float: left;
     width: 20%;
@@ -1024,27 +1031,27 @@ article h2 a:hover {
   /**
    * The layout when there are two sidebars.
    */
-  /* line 366, ../sass/layouts/_responsive.scss */
+  /* line 374, ../sass/layouts/_responsive.scss */
   .two-sidebars {
     /* Span 3 columns, starting in 2nd column from left. */
     /* Span 1 column, starting in 1st column from left. */
     /* Span 1 column, starting in 5th column from left. */
   }
-  /* line 368, ../sass/layouts/_responsive.scss */
+  /* line 376, ../sass/layouts/_responsive.scss */
   .two-sidebars #content {
     float: left;
     width: 60%;
     margin-left: 20%;
     margin-right: -80%;
   }
-  /* line 373, ../sass/layouts/_responsive.scss */
+  /* line 381, ../sass/layouts/_responsive.scss */
   .two-sidebars .region-sidebar-first {
     float: left;
     width: 20%;
     margin-left: 0%;
     margin-right: -20%;
   }
-  /* line 378, ../sass/layouts/_responsive.scss */
+  /* line 386, ../sass/layouts/_responsive.scss */
   .two-sidebars .region-sidebar-second {
     float: left;
     width: 20%;
