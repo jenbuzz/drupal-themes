@@ -34,3 +34,17 @@ function businesscard_links__system_main_menu($variables) {
 
   return $html;
 }
+
+function businesscard_breadcrumb($variables) {
+  $seperator = ' &gt; ';
+
+  $html = '';
+
+  if (isset($variables['breadcrumb']) && !empty($variables['breadcrumb'])) {
+    foreach ($variables['breadcrumb'] AS $breadcrumb) {
+      $html.= '<li>' . $breadcrumb . $seperator . '</li>';
+    }
+  }
+
+  return $html;
+}

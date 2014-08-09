@@ -63,7 +63,12 @@
 
     <div id="content" class="column" role="main" style="width: inherit !important; margin-right: 300px;">
       <?php print render($page['highlighted']); ?>
-      <?php print $breadcrumb; ?>
+      <nav class="breadcrumb">
+        <ol>
+        <?php print $breadcrumb ?>
+          <li><?php print $title; ?></li>
+        </ol>
+      </nav>
       <a id="main-content"></a>
       <?php print $messages; ?>
       <?php print render($tabs); ?>
