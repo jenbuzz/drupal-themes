@@ -36,7 +36,7 @@ function businesscard_links__system_main_menu($variables) {
 }
 
 function businesscard_breadcrumb($variables) {
-  $seperator = ' &gt; ';
+  $seperator = ' / ';
 
   $html = '';
 

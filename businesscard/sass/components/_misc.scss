@@ -173,6 +173,8 @@
  * Breadcrumb navigation.
  */
 .breadcrumb {
+  margin-top: 10px;
+
   ol {
     margin: 0;
     padding: 0;
@@ -185,10 +187,13 @@
     color: #555555;
     font-size: 12px;
 
-    a, a:hover {
+    a {
       color: #555555;
       text-decoration: none;
       font-size: 12px;
+    }
+    a:hover {
+      text-decoration: underline;
     }
   }
 }

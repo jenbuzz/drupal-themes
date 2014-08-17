@@ -65,6 +65,7 @@
       <?php print render($page['highlighted']); ?>
       <nav class="breadcrumb">
         <ol>
+          <li><?php print t('You are here'); ?>: </li>
         <?php print $breadcrumb ?>
           <li><?php print $title; ?></li>
         </ol>
