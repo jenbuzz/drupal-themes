@@ -1,0 +1,10 @@
+name: 'Drupal 8 Theme Boilerplate'
+type: theme
+description: 'Basic drupal 8 theme example for copy-paste use'
+package: Custom
+core: 8.x
+regions:
+  header: Header
+  content: Content
+  sidebar_first: 'Sidebar first'
+  footer: Footer
