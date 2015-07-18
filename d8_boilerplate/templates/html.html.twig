@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {{ head }}
+        
+        <title>{{ head_title|safe_join(' | ') }}</title>
+            
+        {{ styles }}
+        {{ scripts }}
+    </head>
+    <body>
+        {{ page_top }}
+        {{ page }}
+        {{ page_bottom }}
+
+        {{ scripts_bottom }}
+    </body>
+</html>
