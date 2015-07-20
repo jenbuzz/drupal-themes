@@ -1,0 +1,14 @@
+<article>
+
+    <a href="{{ url }}" rel="bookmark">{{ label }}</a>
+        
+    <div>{{ content|without('links', 'field_tags') }}</div>
+
+    {% if content.links %}
+    <div class="node__links">
+        {{ content.links }}
+    </div>
+    {% endif %}
+    
+</article>
+
