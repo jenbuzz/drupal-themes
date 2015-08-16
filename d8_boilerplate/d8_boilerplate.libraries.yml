@@ -4,3 +4,5 @@ global-styles-and-scripts:
       css/style.css: {}
   js:
     js/script.js: {}
+  dependencies:
+    - core/jquery
