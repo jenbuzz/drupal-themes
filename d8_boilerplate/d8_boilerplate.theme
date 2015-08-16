@@ -5,4 +5,13 @@
  * Theme hooks for drupal 8 theme boilerplate.
  */
 
+/**
+ * Implements hook_preprocess_HOOK() for HTML document templates.
+ */
+function d8_boilerplate_preprocess_html(&$variables) {
+
+  // is this site running on localhost? The variable 'dev' is available in template!
+  $vars['dev'] = ($_SERVER['HTTP_HOST']==='localhost') ? true : false;
+}
+
 ?>
