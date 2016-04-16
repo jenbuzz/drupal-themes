@@ -29,3 +29,11 @@ function d7_boilerplate_preprocess_html(&$variables)
     //drupal_add_js(path_to_theme().'/js/script.js');
 }
 
+/**
+ * Implements template_preprocess_page
+ */
+function d7_boilerplate_preprocess_page(&$variables, $hook) {
+  if (true) {
+    //drupal_add_js(path_to_theme().'/js/script.js');
+  }
+}
