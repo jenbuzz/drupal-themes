@@ -14,4 +14,14 @@ function d8_boilerplate_preprocess_html(&$variables) {
   $vars['dev'] = ($_SERVER['HTTP_HOST']==='localhost') ? true : false;
 }
 
+/**
+ * Implements template_preprocess_node()
+ */
+function d8_boilerplate_preprocess_node(&$variables) {
+
+  // get the base root url of the site and make available to a node:
+  global $base_root;
+  $variables['base_path'] = $base_root;
+}
+
 ?>
