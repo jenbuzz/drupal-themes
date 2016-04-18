@@ -1,4 +1,9 @@
-<article>
+{% set classes = [] %}
+{% if page %}
+    {% set classes = ['page'] %}
+{% endif %}
+
+<article{{ attributes.addClass(classes) }}>
 
     <a href="{{ url }}" rel="bookmark">{{ label }}</a>
         
