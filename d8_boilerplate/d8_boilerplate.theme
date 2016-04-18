@@ -24,4 +24,13 @@ function d8_boilerplate_preprocess_node(&$variables) {
   $variables['base_path'] = $base_root;
 }
 
+/**
+ * Manipulate links using preprocess_links
+ */
+function d8_boilerplate_preprocess_links(&$variables) {
+
+    // Adding a css class to the "read more" link:
+    $variables['links']['node-readmore']['link']['#options']['attributes']['class'] = 'btn';
+}
+
 ?>
