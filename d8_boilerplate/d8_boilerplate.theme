@@ -25,6 +25,16 @@ function d8_boilerplate_preprocess_node(&$variables) {
 }
 
 /**
+ * Implements template_preprocess_region()
+ */
+function d8_boilerplate_preprocess_region(&$variables) {
+
+  // get the base root url of the site and make available in a region:
+  global $base_root;
+  $variables['base_path'] = $base_root;
+}
+
+/**
  * Manipulate links using preprocess_links
  */
 function d8_boilerplate_preprocess_links(&$variables) {
