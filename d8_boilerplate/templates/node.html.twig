@@ -5,14 +5,20 @@
 
 <article{{ attributes.addClass(classes) }}>
 
-    <a href="{{ url }}" rel="bookmark">{{ label }}</a>
+    <header>
+        <h2>
+            <a href="{{ url }}" rel="bookmark">{{ label }}</a>
+        </h2>
+    </header>
         
     <div>{{ content|without('links', 'field_tags') }}</div>
 
     {% if content.links %}
-    <div class="node__links">
-        {{ content.links }}
-    </div>
+    <footer>
+        <div class="node__links">
+            {{ content.links }}
+        </div>
+    </footer>
     {% endif %}
     
 </article>
